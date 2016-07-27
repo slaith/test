@@ -1,0 +1,41 @@
+#built application files
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Generated files
+*.class
+bin/
+gen/
+
+# System caches 
+Thumbs.db # Windows thumbnail db
+.DS_Store # OSX files
+*~
+
+# Eclipse project files
+.classpath
+.project
+.metadata/
+
+# Android Studio / Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle wrappers / generated
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+build/
+
+# Local configs 
+local.properties
+gradle.properties
+
+# Authentication policies
+*.auth
+

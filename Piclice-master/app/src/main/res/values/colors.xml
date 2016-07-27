@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+
+    <color name="primary_text">#212121</color>
+
+    <color name="main_dark">#1976D2</color>
+    <color name="main">#2196F3</color>
+
+    <color name="button">#D32F2F</color>
+    <color name="button_hover">#F44336</color>
+
+    <color name="subtext">#BBDEFB</color>
+    <color name="black_transparent">#99000000</color>
+    <color name="black_low_transparent">#CC000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff2345</color>
+    <color name="dark">#212121</color>
+    <color name="ripple">#1dffffff</color>
+</resources>

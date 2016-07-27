@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_whats_hot.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_whats_hot.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pages.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_pages.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_home.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_home.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_people.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_people.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_communities.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_communities.png"
+    },
+    {
+        "merged": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_photos.png",
+        "source": "/home/prafull/Desktop/Android-6/july/VR/SlidingMenu/app/src/main/res/drawable-xxhdpi/ic_photos.png"
+    }
+]

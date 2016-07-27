@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4352282f0b50588dbe5c39cbb8117575f6ef2a71">
+        <dex dex="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a9962fa728e6d1f476152a76c101200049ad40c/classes.dex" />
+    </item>
+    <item
+        jar="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="46e380ca6de71773437f7137fdb29d64f4bc6694">
+        <dex dex="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1d28df4e6d5ae7fa36d98f9dc2c2c8e06bd8b11e/classes.dex" />
+    </item>
+    <item
+        jar="/home/prafull/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_ce5e095dcae765c772c0c585b3e1079076fb89b6/classes.dex" />
+    </item>
+    <item
+        jar="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/libs/twitter4j-core-4.0.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="/home/prafull/Desktop/Android-6/july/Twitter-Sharing-Example-Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/twitter4j-core-4.0.2_b5f99d7744cf2e5f96b3affa7d8b0440bdb84bd7/classes.dex" />
+    </item>
+
+</items>

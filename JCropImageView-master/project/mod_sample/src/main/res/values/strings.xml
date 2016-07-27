@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JCropImageView</string>
+    <string name="jcrop_image_view">JCrop ImageView (%1$s)</string>
+    <string name="github_link">View it on Github</string>
+
+</resources>
