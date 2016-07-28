@@ -1,24 +1,23 @@
 language: android
-script: ./gradlew
+script: ./gradlew build assembleRelease
 android:
   components:
   - build-tools-20.0.0
   - android-19
 
 deploy:
-  - provider: releases
-    api_key:
-      secure: MyApplication
-    file: app/build/outputs/apk/app-release.apk
-    on:
-      repo: PrafullSingh1992/test
-      tags: true
+ provider: releases
+  user: PrafullSingh1992
+  password: Singh12@
+  file: app/build/outputs/apk/app-release.apk
+  skip_cleanup: true
+  on:
+    tags: true
 
 
 notifications:
   email:
     recipients:
-    - prafull.singh@sourcefuse.com
     - prafull.singh@sourcefuse.com
     on_success: always
     on_failure: always
