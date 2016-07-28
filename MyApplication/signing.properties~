@@ -1,0 +1,9 @@
+release.storeFile=./MyApplication/MyApplication.jks
+release.storePassword=MyApplication
+release.keyAlias=MyApplication
+release.keyPassword=MyApplication
+
+debug.storeFile=./MyApplication/MyApplication.jks
+debug.storePassword=MyApplication
+debug.keyAlias=MyApplication
+debug.keyPassword=MyApplication
