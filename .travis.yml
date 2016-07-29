@@ -1,4 +1,6 @@
 language: android
+install: ant deps
+
 android:
   components:
     # Uncomment the lines below if you want to
@@ -23,9 +25,14 @@ android:
     # - sys-img-x86-android-17
 
 
-script: ./MyApplication/gradlew
+before_script:
+  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
 
-ant debug install test
+
+script: ./MyApplication/gradlew
 
 before_install:
   - sudo apt-get update -qq
