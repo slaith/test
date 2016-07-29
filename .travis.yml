@@ -29,4 +29,4 @@ before_install:
   - sudo apt-get install -y python2.7
 
 after_success: 
-  - python ./travis_upload_release_to_github.py
+	- python ./travis_upload_release_to_github.py
