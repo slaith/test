@@ -92,6 +92,7 @@ if response.status == 422:
                  headers={
                      'Accept': github_header_accept,
                      'Authorization': github_authorization_header,
+                     'Content-Type': 'application/json',
                      'User-Agent': github_header_user_agent
                  })
     response = conn.getresponse()
