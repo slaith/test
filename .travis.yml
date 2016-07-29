@@ -25,8 +25,7 @@ android:
 script: ./MyApplication/gradlew
 
 before_install:
-	- chmod +x travis_upload_release_to_github.py
-  	- sudo apt-get update -qq
+	- sudo apt-get update -qq
   	- sudo apt-get install -y python2.7
 
 after_success: python ./travis_upload_release_to_github.py
