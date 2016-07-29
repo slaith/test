@@ -60,7 +60,7 @@ try:
 except CalledProcessError:
     current_tag_body = "Automatic upload for version %s" % current_tag
 
-github_access_token = '2b134fd8bab15413156de7dff203dcbbcc626536'
+github_access_token = '18719bc34d41c68be2026689171f80eab0b137de'
 
 if not github_access_token:
     print('No access token given, abort', file=sys.stderr)
