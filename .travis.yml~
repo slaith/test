@@ -22,10 +22,20 @@ android:
     # - sys-img-armeabi-v7a-android-19
     # - sys-img-x86-android-17
 
-script: ./MyApplication/gradlew
+deploy:
+  - provider: releases
+    api_key:
+      secure: f90b82656cbcbb28d8969637d9c7f4f388dc427e
+    file: app/build/outputs/apk/app-release.apk
+    on:
+      repo: PrafullSingh1992/test
+      tags: true
 
-before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y python2.7
 
-after_success: ./travis_upload_release_to_github.py
+notifications:
+  email:
+    recipients:
+    - monika.bindal@sourcefuse.com
+    - prafull.singh@sourcefuse.com
+    on_success: always
+    on_failure: always
