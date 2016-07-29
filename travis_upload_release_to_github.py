@@ -97,7 +97,7 @@ if response.status == 422:
     response = conn.getresponse()
 
 if response.status not in range(200, 204):
-    print('Unable to create or get release, abort', file=sys.stderr)
+    print('Unable to create or get release, abort %s ' % response.status, file=sys.stderr)
     exit(0)
 
 response_values = json.loads(response.read())
