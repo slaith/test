@@ -25,6 +25,7 @@ android:
 script: ./gradlew
 
 before_install:
+  - chmod +x gradlew
   - sudo apt-get update -qq
   - sudo apt-get install -y python2.7
 
