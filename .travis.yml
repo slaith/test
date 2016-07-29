@@ -1,23 +1,41 @@
 language: android
-script: ./gradlew
 android:
   components:
-  - build-tools-20.0.0
-  - android-19
+    # Uncomment the lines below if you want to
+    # use the latest revision of Android SDK Tools
+    - platform-tools
+    - tools
+
+    # The BuildTools version used by your project
+    - build-tools-22.0.0
+
+    # The SDK version used to compile your project
+    - android-22
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    # - sys-img-armeabi-v7a-android-19
+    # - sys-img-x86-android-17
 
 deploy:
- provider: releases
-  user: PrafullSingh1992
-  password: Singh12@
-  file: app/build/outputs/apk/app-release.apk
-  skip_cleanup: true
-  on:
-    tags: true
+  - provider: releases
+    api_key:
+      secure: f90b82656cbcbb28d8969637d9c7f4f388dc427e
+    file: app/build/outputs/apk/app-release.apk
+    on:
+      repo: PrafullSingh1992/test
+      tags: true
 
 
 notifications:
   email:
     recipients:
+    - monika.bindal@sourcefuse.com
     - prafull.singh@sourcefuse.com
     on_success: always
     on_failure: always

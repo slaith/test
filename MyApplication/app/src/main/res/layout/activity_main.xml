@@ -10,8 +10,66 @@
 	android:paddingTop="@dimen/activity_vertical_margin"
 	tools:context="sourcefuse.com.myapplication.MainActivity">
 
-	<TextView
+	<ImageView
+		android:id="@+id/Image"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/rl"
+		android:background="@android:color/black"
+		android:src="@drawable/images"/>
+
+	<RelativeLayout
+		android:id="@+id/rl"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Hello World!"/>
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:id="@+id/gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="gray"
+			/>
+
+		<Button
+			android:id="@+id/bright"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/gray"
+			android:text="bright"
+			/>
+
+		<Button
+			android:id="@+id/dark"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/bright"
+			android:text="dark"
+			/>
+
+		<Button
+			android:id="@+id/gama"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/dark"
+			android:text="gama"
+			/>
+
+		<Button
+			android:id="@+id/green"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/gray"
+			android:text="green"
+			/>
+
+		<Button
+			android:id="@+id/blue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/gray"
+			android:layout_toRightOf="@+id/green"
+			android:text="blue"
+			/>
+	</RelativeLayout>
 </RelativeLayout>
